@@ -16,29 +16,33 @@ This is a Python script that interacts with the GitHub API to manage the users y
 1. Clone the repository:
    ```bash
    git clone https://github.com/your_username/mbot_github.git
-Navigate to the project directory:
-Copy
+## Navigate to the project directory:
+```bash
 cd mbot_github
-Install the required libraries:
-Copy
+```
+
+## Install the required libraries:
+```bash
 pip install requests
-Configuration
+```
+## Configuration
 Before running the script, you need to configure the following variables in the code:
+- `GITHUB_TOKEN`: Your personal access token from GitHub.
+- `USERNAME`: Your GitHub username.
+- `EXCLUDED_USERS`: A set of usernames that you want to exclude from being unfollowed.
 
-GITHUB_TOKEN: Your personal access token from GitHub.
-USERNAME: Your GitHub username.
-EXCLUDED_USERS: A set of usernames that you want to exclude from being unfollowed.
-Usage
+### Usage
 To run the script, execute the following command in your terminal:
-
-Copy
+```bash
 python mbot_github.py
-Example
-Copy
+```
+### Example
+```bash
 # Example configuration
 GITHUB_TOKEN = 'your_github_token'
 USERNAME = 'your_github_username'
 EXCLUDED_USERS = {'username1', 'username2'}
-Notes
-Make sure that your GitHub token has the necessary permissions to access your following and followers data.
-Use this script responsibly and be aware of GitHub's rate limits.
+```
+### Notes
+- Make sure that your GitHub token has the necessary permissions to access your following and followers data.
+- Use this script responsibly and be aware of GitHub's rate limits.
