@@ -15,7 +15,7 @@ This is a Python script that interacts with the GitHub API to manage the users y
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your_username/mbot_github.git
+   git clone https://github.com/ArizalMuluk/mbot_github-bot-followers.git
 ## Navigate to the project directory:
 ```bash
 cd mbot_github
