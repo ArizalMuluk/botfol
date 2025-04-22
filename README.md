@@ -1,4 +1,4 @@
-# mbot github
+# botfol github
 
 ## Overview
 This is a Python script that interacts with the GitHub API to manage the users you are following. It helps you identify users who do not follow you back and allows you to unfollow them, while also providing the option to exclude certain users from being unfollowed.
